@@ -1,3 +1,8 @@
+if getgenv().Activated == true then
+    print('Script Already Executed!')
+    return
+end
+getgenv().Activated = true
 local Tools = loadstring(game:HttpGet('https://raw.githubusercontent.com/AltLexon/Tools/main/Tools.lua'))()
 local Players = game:GetService('Players')
 local UserInputService = game:GetService('UserInputService')
@@ -75,3 +80,5 @@ UserInputService.InputBegan:Connect(function(int, gameProcessedEvent)
         tpToLadder()
     end
 end)
+
+print('K: Enable Jump Toggle\nL: Get Ladder\nM: Tp To Ladder')
