@@ -5,9 +5,9 @@
 ## Features:
 
 ```
-Get Ladder ( press k )
+Get Ladder ( press l )
 Tp To Ladder ( press m )
-Enable Jump Toggle ( press l )
+Enable Jump Toggle ( press k )
 ```
 
 If you want use, execute it:
